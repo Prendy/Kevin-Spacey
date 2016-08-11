@@ -89,9 +89,10 @@ main {
     font-weight: normal;
     margin-left: 2.5vw; }
   .latest p {
-    text-align: left; }
+    text-align: left;
+    margin-left: 2.5vw; }
   .latest img {
-    margin-right: 2.5vw;
+    margin-right: 1.5vw;
     margin-left: 2.5vw;
     border-radius: 20px;
     height: 25vh;
@@ -121,9 +122,11 @@ footer {
   height: 50px;
   clear: both; }
   footer p.left {
-    float: left; }
+    float: left;
+    margin-left: 2.5vw; }
   footer p.right {
-    float: right; }
+    float: right;
+    margin-right: 2.5vw; }
 
 @media screen and (min-width: 720px) {
   aside {

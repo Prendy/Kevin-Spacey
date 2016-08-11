@@ -111,10 +111,13 @@ main {
     margin-left: 2.5vw;
   }
 
-  p {text-align: left;}
+  p {
+    text-align: left;
+    margin-left:2.5vw;
+  }
 
   img {
-    margin-right: 2.5vw;
+    margin-right: 1.5vw;
     margin-left: 2.5vw;
     border-radius: 20px;
     height:25vh;
@@ -152,9 +155,15 @@ footer {
   height: 50px;
   clear: both;
 
-  p.left {float:left;}
+  p.left {
+    float:left;
+    margin-left: 2.5vw;
+  }
 
-  p.right {float: right;}
+  p.right {
+    float: right;
+    margin-right: 2.5vw;
+  }
 }
 
 @media screen and (min-width:720px) {
