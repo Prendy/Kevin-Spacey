@@ -98,19 +98,24 @@ main {
 
 .latest h1,h2 {
   font-weight: bolder;
+  font-size: 25px;
+}
+
+.latest #bad {
+  color:#9F000F;
   font-size: 20px;
+  font-weight: normal;
 }
 
 .latest p {
   text-align: justify;
-  margin-right: 15px;
-}
+  }
 
 .latest img{
   margin-right: 2.5vw;
   border-radius: 20px;
-  height:20vh;
-  max-width: 20%;
+  height:25vh;
+  max-width:150px;
   float: left;
   object-fit: contain;
 }
