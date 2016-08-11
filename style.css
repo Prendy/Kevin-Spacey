@@ -1,0 +1,142 @@
+body {
+  margin:9vh 0 0 0;
+  padding:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  font-family: 'Roboto', arial, sans-serif;
+  font-size: 2vh;
+}
+
+header {
+  background: #212E3E;
+  color:#000000;
+  position: fixed;
+  width:100%;
+  height: 9vh;
+  display: block;
+  top: 0;
+}
+
+.logo {
+  float:left;
+  height: 9vh;
+  display: inline-block;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: 'Taviraj', serif;
+  font-weight: 800;
+  font-size: 3vh;
+}
+
+.logo p {
+  margin: 2vh 0 0 1vw;
+}
+
+nav {
+  height: 9vh;
+  float: right;
+  display: inline-block;
+}
+
+nav ul {
+  margin: 3.75vh 0 0 0;
+}
+
+nav ul li {
+  text-transform: uppercase;
+  list-style-type: none;
+  display:inline-block;
+  font-size: 1.375vh;
+  margin:0 2vw 0 0;
+}
+
+nav ul li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-family: 'Roboto', arial, sans-serif;
+}
+
+nav ul li a:hover {
+  color: #8a8f9c;
+}
+
+main {
+  display: block;
+  clear: both;
+  top:9vh;
+}
+
+.big_picture {
+  background-image: url(ks1.jpg);
+  background-repeat: no-repeat;
+  height:27vh;
+  max-width: 1000px;
+  display: block;
+  clear: both;
+  background-size: contain;
+  margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .big_picture {
+    height: 30vh;
+  }
+}
+
+.latest {
+  top:0;
+  display: block;
+  color:#212E3E;
+  margin-left: 2.5vw;
+  min-height: 50vh;
+}
+
+.latest h1,h2 {
+  font-weight: bolder;
+  font-size: 3vh;
+}
+
+.latest p {
+  text-align: justify;
+  margin-right: 2.5vw;
+}
+
+.latest img{
+  float:left;
+  margin-right: 2.5vw;
+  border-radius: 25px;
+  max-height: 35vh;
+}
+
+aside {
+  background-color: #212E3E;
+  color: white;
+  padding-top: 0.75vh;
+  padding-bottom: 0.75vh;
+}
+
+aside h2, p, ul {
+  margin-left: 2.5vw;
+  margin-right: 2.5vw;
+}
+
+aside h2 {
+  font-weight: bolder;
+  font-size: 3vh;
+}
+
+footer {
+  color:#212E3E;
+}
+
+footer p.left {
+  float:left;
+}
+
+footer p.right {
+  float:right;
+}
