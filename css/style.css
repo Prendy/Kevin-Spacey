@@ -90,10 +90,12 @@ main {
     margin-left: 2.5vw; }
   .latest p {
     text-align: left;
-    margin-left: 2.5vw; }
-  .latest img {
-    margin-right: 1.5vw;
     margin-left: 2.5vw;
+    padding-right: 20px; }
+  .latest img {
+    margin-right: 20px;
+    margin-left: 2.5vw;
+    margin-bottom: 20px;
     border-radius: 20px;
     height: 25vh;
     max-width: 150px;
@@ -145,6 +147,9 @@ footer {
     border: 0;
     margin: 0;
     padding: 0;
-    float: right; } }
+    float: right; }
+
+  .latest p {
+    padding-right: 0; } }
 
 /*# sourceMappingURL=style.css.map */
